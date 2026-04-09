@@ -5,7 +5,7 @@ int main(){
                      {5,6,7,8},
                      {9,10,11,12},
                      {13,14,15,16}};
-    int r=2, c=2;
+    int r=2, c=2; 
     int flag = 0;
     for(int i=3; i>=0; i--){
         for (int j=3; j>=0; j--){
