@@ -9,7 +9,7 @@
 
 int linearsearch(int arr[], int n, int t){
     for(int i = 0; i < n; i++){
-        if(arr[i] == t){
+        if(arr[i] == t){ 
             return i;
         }
     }
