@@ -1,3 +1,9 @@
+// Problem Statement:
+// Write a C program that dynamically allocates memory (malloc) for two input arrays 
+// and one result array of size $N$. Read $N$ integers into both input arrays, 
+// multiply their corresponding elements, store the products in the result array, and print the resulting sequence.
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
