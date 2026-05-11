@@ -1,3 +1,25 @@
+/*
+Problem Statement:
+Write a C program using a structure named Pythagorean and a pointer to the structure.
+
+Input three integers representing the sides of a triangle.
+Check whether the numbers form a Pythagorean triple:
+a² + b² = c² (in any order).
+
+If it is a Pythagorean triple:
+    print "Pythagorean triple."
+
+Then check whether it is a special triple containing 3, 4, and 5.
+If yes:
+    print "Special triple."
+Else:
+    print "Not a special triple."
+
+If the numbers do not form a Pythagorean triple:
+    print "Not a Pythagorean triple."
+
+Use pointer operator (->) to access structure members.
+*/
 #include <stdio.h>
 
 struct Pythagorean{

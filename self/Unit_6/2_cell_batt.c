@@ -37,7 +37,7 @@ int main(){
     float rem_percentage = ((float)rem_battery/c.cap) * 100;
     
     printf("Remaining Battery Life: %d\n", rem_battery);
-    printf("Remaining Battery Percentage: %.1f%%\n ", rem_percentage);
+    printf("Remaining Battery Percentage: %.1f\n ", rem_percentage);
     
     return 0;
 }
